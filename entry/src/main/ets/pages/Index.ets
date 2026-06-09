@@ -57,8 +57,8 @@ struct Index {
         });
 
       Button("重新开始")
-        .width('85%')
-        .height(50)
+        .width('100%')
+        .height('100%')
         .backgroundColor('#FF6700')
         .onClick(() => {
           this.answer = Math.floor(Math.random() * 100) + 1;
